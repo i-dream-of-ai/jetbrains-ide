@@ -1,4 +1,14 @@
 [![official JetBrains project](http://jb.gg/badges/incubator-flat-square.svg)](https://github.com/JetBrains#jetbrains-on-github)
+
+# ⚠️ Deprecated
+
+**This repository is no longer maintained.** The core functionality has been integrated into all IntelliJ-based IDEs since version 2025.2.
+The built-in functionality works with SSE and JVM-based proxy (for STDIO) so this NPM package is no longer required.
+
+**Migration:** Please refer to the [official documentation](https://www.jetbrains.com/help/idea/mcp-server.html) for details on using the built-in functionality.
+
+**Issues & Support:** For bugs or feature requests related to the built-in MCP functionality, please use the [JetBrains YouTrack](https://youtrack.jetbrains.com/issues?q=project:%20IJPL%20Subsystem:%20%7BMCP%20(Model%20Context%20Protocol)%7D%20).
+
 # JetBrains MCP Proxy Server
 
 The server proxies requests from client to JetBrains IDE.
